@@ -1,0 +1,13 @@
+name: ParlagamesQualification
+version: '${project.version}'
+main: me.thehandsomeyoni.parlagamesqualification.Main
+api-version: 1.18
+
+commands:
+  createitem:
+    aliases: ci
+
+  openinv:
+
+  reloadinv:
+

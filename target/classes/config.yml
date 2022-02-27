@@ -1,0 +1,43 @@
+# -> Under material section, please make sure you use a valid item, you can find all valid items here:
+# -> https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+
+items:
+  example-item-1:
+  # -> First field of an item represents the material it's going to be.
+    material: DIAMOND_BLOCK
+  # -> Second field of an item represents the slot in the inventory it's going to occupy.
+    slot: 12
+  # -> Third field of an item represents the message it's going to send. Chat colors are supported.
+    message: '&1This is example item number 1'
+
+  example-item-2:
+    # -> First field of an item represents the material it's going to be.
+    material: EMERALD_BLOCK
+    # -> Second field of an item represents the slot in the inventory it's going to occupy.
+    slot: 14
+    # -> Third field of an item represents the message it's going to send. Chat colors are supported.
+    message: '&cThis is example item number 2'
+
+  example-item-3:
+    # -> First field of an item represents the material it's going to be.
+    material: GOLD_BLOCK
+    # -> Second field of an item represents the slot in the inventory it's going to occupy.
+    slot: 16
+    # -> Third field of an item represents the message it's going to send. Chat colors are supported.
+    message: '&aThis is example item number 3'
+
+  example-item-4:
+    # -> First field of an item represents the material it's going to be.
+    material: IRON_BLOCK
+    # -> Second field of an item represents the slot in the inventory it's going to occupy.
+    slot: 22
+    # -> Third field of an item represents the message it's going to send. Chat colors are supported.
+    message: '&bThis is example item number 4'
+
+  example-item-5:
+    # -> First field of an item represents the material it's going to be.
+    material: COAL_BLOCK
+    # -> Second field of an item represents the slot in the inventory it's going to occupy.
+    slot: 24
+    # -> Third field of an item represents the message it's going to send. Chat colors are supported.
+    message: '&4This is example item number 5'
